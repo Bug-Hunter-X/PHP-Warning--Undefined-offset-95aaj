@@ -1,0 +1,3 @@
+# PHP Warning: Undefined offset
+
+This repository demonstrates a common PHP error: "Undefined offset".  It shows how to reproduce the error and provides a solution to prevent it.  The error typically occurs when attempting to access an array element using an index that is out of bounds or does not exist.  The solution demonstrates safe ways to access array elements using isset() or array_key_exists() to check for the existence of an index, and using array access methods which do not cause error if the key does not exist.
